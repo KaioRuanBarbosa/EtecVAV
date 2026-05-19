@@ -1,0 +1,43 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 19/05/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: Este programa serve para indentificar se x numero é primo
+             ou não primo
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int numero;
+    bool primo = true;
+
+    cout << "Digite um numero: ";
+    cin >> numero;
+
+    if (numero < 2) {
+        cout << "O numero nao e primo";
+    } 
+    else {
+
+        for (int i = 2; i < numero; i++) {
+
+            if (numero % i == 0) {
+                primo = false;
+            }
+
+        }
+
+        if (primo) {
+            cout << "O numero e primo";
+        } 
+        else {
+            cout << "O numero nao e primo";
+        }
+
+    }
+
+    return 0;
+}
