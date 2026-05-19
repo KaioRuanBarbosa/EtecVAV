@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é CSS</title>
+
+
+
+
+
+    <style>
+        body {
+            background-color: #CEEEE3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 30px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>O que é CSS?</h1>
+    </header>
+
+    <br>
+    <br>
+
+
+    <center><img src="CSS imagem.PNG" alt="" width="370" height="350"></center>
+
+
+    <main>
+
+        <div class="caixa">
+            <h2>Explicação</h2>
+            <p>
+                CSS é uma linguagem usada para deixar os sites mais bonitos.
+                Com ele, é possivel mudar cores, tamanhos, fontes e até a posição das coisas na tela.
+            </p>
+        </div>
+
+        <div class="caixa">
+            <h2>Como funciona?</h2>
+            <p>
+                O CSS trabalha junto com o HTML. O HTML cria a estrutura do site,
+                e o CSS cuida da aparência. É tipo o HTML ser o corpo e o CSS ser a roupa.
+            </p>
+        </div>
+
+        <div class="caixa">
+            <h2>Exemplo</h2>
+            <p>
+                Dentro do CSS existe a estilização que é
+                a que faz a "magica", com ele que fazemos o site ficar bonito. E outros que ajudam na organização do
+                site como organização<br>
+                Reutilização e Responsividade.
+            </p>
+        </div>
+
+        <div class="caixa">
+            <h2>Seletores</h2>
+            <p>
+                Seletores
+                São usados para escolher quais elementos da página você quer estilizar.
+                Exemplo: <br>
+
+                p {
+
+                p é o seletor — ele seleciona todos os parágrafos.
+            </p>
+        </div>
+
+
+        <div class="caixa">
+            <h2>Propriedades</h2>
+            <p>
+                Propriedades
+São as características que você quer mudar nesses elementos.
+Exemplo: <br>
+
+color:
+
+color é a propriedade (cor do texto).
+            </p>
+        </div>
+
+
+        <div class="caixa">
+            <h2>Valores</h2>
+            <p>
+                Valores
+São as configurações que você dá para a propriedade.
+Exemplo: <br>
+<br>
+blue;
+
+blue é o valor da propriedade color.
+<br>
+Juntando tudo: <br>
+
+p {
+  color: blue;
+}
+p → seletor
+color → propriedade
+blue → valor
+            </p>
+        </div>
+
+
+
+
+
+
+        
+        <div class="caixa">
+            <center>
+                <img src="codigo CSS.PNG" alt="" width="450" height="280" </center>
+                <br>
+        </div>
+        <div class="caixa">
+            <h2>Minha opinião</h2>
+            <p>
+                Eu acho o CSS fundamental pois com ele da para deixar o site com a sua cara.
+                No começo achei confuso, mas depois fica mais fácil de entender.
+            </p>
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <footer>
+
+
+        <table width="1900" border="1" bordercolor="white">
+
+            <th>
+                <center>
+            <th>
+                <h2>
+                    <font size="5" color="#26728C">Criadores</font>
+                </h2>
+            </th>
+            </center>
+
+            <tr>
+                <td>
+                    <font size="4">
+                        <center>
+                <td>
+                    <p>1°D</p>
+                </td>
+                <td>
+                    <p>Jorge Miguel Simonette Ramazzini</p>
+                </td>
+                <td>
+                    <p>Kaio Ruan De França Barbosa</p>
+                </td>
+
+                </center>
+                </font>
+
+        </table>
+        </p>
+    </footer>
+
+</body>
+
+</html>
