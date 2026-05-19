@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abril Laranja</title>
+</head>
+
+<body bgcolor="#F5762B" text="white">
+    
+    <center>
+        <h1><font size="8" color="black">ABRIL LARANJA</font></h1>
+    </center>
+
+    <hr size="6" color="black"><br>
+
+    <center><h2>O Abril Laranja é a campanha de conscientização e prevenção contra a crueldade e maus-tratos aos animais, criada
+        pela ASPCA. O movimento visa educar a população sobre o respeito, bem-estar animal e a importância da denúncia
+        contra violência, negligência ou abandono. A cor laranja simboliza a luta contra essas práticas que são
+        consideradas crime no Brasil.</h2></center>
+
+    <hr size="2" color="black"><br>
+
+    <table width="1900" border="2" bordercolor="black">  
+
+        <th>
+            <h2><font size="6" color="black">Criadores</font></h2>
+
+        <tr>
+            <td>
+                <font size="5"> 
+                    <center>
+                        <p>Jorge Miguel Simonette Ramazzini</p>
+                        <p>Kaio Ruan De França Barbosa</p>
+                    </center>
+                </font>
+           
+    </table>
+
+<br><br><br>
+
+<center>
+<img src="e:\Abril Laranja\imagem inicial.jpg" width="800" height="800">
+</center>
+
+<br>
+
+<table width="1900" border="1" bordercolor="black">  
+
+    <br>
+    <th>
+        <h2><font size="8" color="black">Mais Informações:</font></h2>
+    </th>
+
+    <tr>
+        <td align="left">
+            <font size="6"><br>
+                <a href="2-Campanha.html">- Campanhas</a><br><br>
+                <a href="3-ONGs.html">- ONGs</a><br><br>
+                <a href="4-Leis.html">- Leis</a><br><br>
+                <a href="5-Sobre.html">- Sobre</a><br><br>
+
+            </font>
+        </td>
+    </tr>
+<br>
+<br>
+
+</table>
+
+<br><br>
+<br>
+
+
+</body>
+</html>
