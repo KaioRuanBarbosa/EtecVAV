@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissão da Área de Informática</title>
+
+    <style>
+        body {
+            background-color: #CEEEE3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #37502c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* MENU SUPERIOR */
+        nav {
+            background-color: #4d6b44;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #CEEEE3;
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .imagem {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .imagem img {
+            border-radius: 20px;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+        }
+
+        h2 {
+            color: #37502c;
+        }
+
+        /* RODAPÉ FINAL */
+        footer {
+            background-color: #37502c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sobre</h1>
+    </header>
+
+    <!-- MENU SUPERIOR -->
+    <nav>
+        <a href="1-index.html">Início</a>
+        <a href="2-profissão.html">Profissão</a>
+        <a href="3-cursos.html">Cursos</a>
+        <a href="4-carreira.html">Carreira</a>
+        <a href="5-sobre.html">Sobre</a>
+
+    </nav>
+
+
+    <div class="caixa">
+        <h2>Autores</h2>
+
+        <p>
+            Jorge Miguel<br>
+            <br>
+            Kaio Ruan<br>
+            <br>
+            Informatica para a internet, 1D
+        </p>
+    </div>
+
+
+    <div class="imagem">
+        <img src="oq ninguem te ensinou" alt="Imagem Engenharia de Software" width="700" height="400">
+    </div>
+
+
+    <div class="caixa">
+        <h2>Descriçao</h2>
+
+        <h3>Engenharia de Software</h3>
+
+        <p>
+            A Engenharia de Software é uma área da computação que se dedica ao desenvolvimento
+            e à manutenção de programas e sistemas utilizados no dia a dia. Ela busca criar
+            softwares de forma organizada e eficiente, garantindo que funcionem corretamente
+            e atendam às necessidades dos usuários.
+        </p>
+
+        <p>
+            Os profissionais dessa área participam de várias etapas do desenvolvimento,
+            como o planejamento, a programação, os testes e a manutenção dos sistemas.
+            Dessa forma, é possível reduzir erros, melhorar a qualidade dos programas e
+            tornar o trabalho das empresas mais eficiente.
+        </p>
+
+        <p>
+            Atualmente, a Engenharia de Software é muito importante, pois a tecnologia está
+            presente em praticamente todos os setores da sociedade, como educação, saúde,
+            comércio e comunicação. Com o avanço das novas tecnologias, a área continua
+            crescendo e oferecendo soluções para diferentes problemas do cotidiano.
+        </p>
+
+        <h3>Referências</h3>
+
+        <p>
+            IEEE COMPUTER SOCIETY. <em>Guide to the Software Engineering Body of Knowledge (SWEBOK Guide)</em>.
+            Los Alamitos: IEEE Computer Society, 2022.
+        </p>
+
+        <p>
+            NASCIMENTO, E. et al.
+            <em>Software Engineering for Artificial Intelligence and Machine Learning Software:
+                A Systematic Literature Review</em>. 2020.
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- RODAPÉ FINAL -->
+    <footer>
+        <br>
+    </footer>
+
+</body>
+
+</html>
