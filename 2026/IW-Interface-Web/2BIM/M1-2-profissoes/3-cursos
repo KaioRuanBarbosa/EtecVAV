@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissão da Área de Informática</title>
+
+    <style>
+        body {
+            background-color: #CEEEE3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #37502c;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* MENU SUPERIOR */
+        nav {
+            background-color: #4d6b44;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #CEEEE3;
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .imagem {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .imagem img {
+            border-radius: 20px;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+        }
+
+        h2 {
+            color: #37502c;
+        }
+
+        /* RODAPÉ FINAL */
+        footer {
+            background-color: #37502c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cursos</h1>
+    </header>
+
+    <!-- MENU SUPERIOR -->
+    <nav>
+        <a href="1-index.html">Início</a>
+        <a href="2-profissão.html">Profissão</a>
+        <a href="3-cursos.html">Cursos</a>
+        <a href="4-carreira.html">Carreira</a>
+        <a href="5-sobre.html">Sobre</a>
+
+    </nav>
+
+    <br>
+
+
+    <div class="caixa">
+        <h2>Quais são os cursos de engenharia de software</h2>
+
+        <p>
+            O curso de Engenharia de Software é uma graduação da área de tecnologia focada no desenvolvimento,
+            manutenção, testes e gestão de sistemas.
+            Ele forma profissionais aptos a projetar desde aplicações simples até infraestruturas complexas.
+            O curso prepara para o mercado através de duas modalidades principais de formação.
+        </p>
+    </div>
+
+
+    <div class="caixa">
+        <h2>Tipos de Formação</h2>
+
+        <p>
+            <b>Bacharelado:</b> Com duração média de 4 a 5 anos, oferece uma formação mais profunda e abrangente,
+            englobando bases fortes em matemática, algoritmos,
+            arquitetura de sistemas e metodologias de gestão de projetos.<br>
+            <br>
+            <b>Tecnólogo:</b> Com duração mais curta, de 2 a 3 anos,
+            é focado na prática e nas demandas imediatas do mercado,
+            como desenvolvimento ágil, linguagens de programação e ferramentas específicas.
+            (Geralmente encontrado com nomes como Análise e Desenvolvimento de Sistemas ou Desenvolvimento de Software).
+        </p>
+    </div>
+
+
+    <div class="imagem">
+        <img src="o-que-faz-um-engenheiro-de-software.jpg" alt="Imagem Engenharia de Software" width="700" height="500">
+    </div>
+
+
+    <div class="caixa">
+        <h2>O que você estuda (Grade Curricular)</h2>
+
+        <p>
+            As disciplinas unem conhecimentos teóricos de computação, engenharia e gestão de negócios:<br>
+            <br>
+            <b>Fundamentos:</b> Algoritmos, Lógica de Programação e Matemática Discreta.<br>
+            <br>
+            <b>Linguagens e Dados:</b> Estrutura de Dados, Banco de Dados (SQL), Python, Java e C#.<br>
+            <br>
+            <b>Especialidades:</b> Engenharia de Requisitos, Arquitetura de Software, Testes, Segurança e DevOps.<br>
+        </p>
+    </div>
+
+
+    </main>
+
+    <!-- RODAPÉ FINAL -->
+    <footer>
+        <br>
+    </footer>
+
+</body>
+
+</html>
