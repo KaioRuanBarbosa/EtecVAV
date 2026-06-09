@@ -1,0 +1,35 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 28/05/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: O programa lê 10 números, compara os valores digitados e identifica qual é o menor e qual é o maior número da sequência.
+             Ao final, exibe os dois resultados.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero, menor, maior;
+
+    cin >> numero;
+    menor = numero;
+    maior = numero;
+
+    for(int i = 1; i < 10; i++) {
+        cin >> numero;
+
+        if(numero < menor) {
+            menor = numero;
+        }
+
+        if(numero > maior) {
+            maior = numero;
+        }
+    }
+
+    cout << "Menor numero da sequencia: " << menor << endl;
+    cout << "Maior numero da sequencia: " << maior << endl;
+
+    return 0;
+}
