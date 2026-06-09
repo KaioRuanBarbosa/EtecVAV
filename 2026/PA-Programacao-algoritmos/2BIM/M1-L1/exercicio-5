@@ -1,0 +1,25 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 28/05/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: O programa lê um número final e um número base,
+             percorre os valores de 1 até o limite informado e exibe apenas os números que são múltiplos do número base.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int final, multiplo;
+
+    cin >> final;
+    cin >> multiplo;
+
+    for(int i = 1; i <= final; i++) {
+        if(i % multiplo == 0) {
+            cout << i << endl;
+        }
+    }
+
+    return 0;
+}
