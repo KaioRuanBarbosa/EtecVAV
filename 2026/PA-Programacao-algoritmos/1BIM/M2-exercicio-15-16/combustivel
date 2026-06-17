@@ -1,0 +1,27 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: preço-combustivel.por
+* Data: 19/03/2026
+* Autor: Jorge Miguel e Kaio Ruan
+* Descrição: 
+*O motorista de aplicativo abastece o tanque do seu carro com um determinado valor em reais.
+*Ler o preço do litro de combustível e o valor que pretende abastecer. Calcular a quantidade de litro no abastecimento e exibir os dados lidos e o valor calculado.
+*/
+programa {
+	funcao inicio() {
+		real precoLitro, valorReais, qtdLitros
+
+		escreva("Preço do litro: R$ ")
+		leia(precoLitro)
+		escreva("Quanto deseja abastecer? R$ ")
+		leia(valorReais)
+
+		qtdLitros = valorReais / precoLitro
+
+		escreva("\nResumo do Abastecimento:")
+		escreva("\nPreço por litro: R$ ", precoLitro)
+		escreva("\nValor pago: R$ ", valorReais)
+		escreva("\nVocê colocou ", qtdLitros, " litros no tanque.")
+	}
+}
