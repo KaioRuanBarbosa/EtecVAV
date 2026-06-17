@@ -1,0 +1,25 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: area-do-triangulo.por
+* Data: 13/03/2026
+* Autor: Jorge Miguel e Kaio Ruan
+* Descrição: 
+* Ler a base e altura de um triângulo. Calcular e exibir a área do triângulo sabendo que área = base * altura / 2.
+*/
+programa {
+	funcao inicio() {
+		real base, altura, area
+
+		escreva("Informe a base do triângulo: ")
+		leia(base)
+		escreva("Informe a altura do triângulo: ")
+		leia(altura)
+
+		area = (base * altura) / 2
+
+		escreva("\nDados do Triângulo:")
+		escreva("\nBase: ", base, " | Altura: ", altura)
+		escreva("\nA área total é: ", area)
+	}
+}
