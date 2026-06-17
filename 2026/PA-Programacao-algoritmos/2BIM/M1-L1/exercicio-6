@@ -1,0 +1,26 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 01/06/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: O programa lê vários números e vai somando e multiplicando eles. Quando a soma passar de 100,
+             o programa para e mostra o resultado da multiplicação de todos os números digitados.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    int soma = 0;
+    long long multiplicacao = 1;
+
+    while (soma <= 100) {
+        cin >> numero;
+        soma = soma + numero;
+        multiplicacao = multiplicacao * numero;
+    }
+
+    cout << multiplicacao;
+
+    return 0;
+}
