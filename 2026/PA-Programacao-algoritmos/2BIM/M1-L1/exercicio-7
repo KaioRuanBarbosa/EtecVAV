@@ -1,0 +1,28 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 02/06/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: O programa lê a quantidade de pessoas e a altura de cada uma. Depois soma todas as alturas,
+             calcula a média dividindo pela quantidade de pessoas e mostra o resultado.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int quantidade;
+    float altura, soma = 0, media;
+
+    cin >> quantidade;
+
+    for (int i = 1; i <= quantidade; i++) {
+        cin >> altura;
+        soma += altura;
+    }
+
+    media = soma / quantidade;
+
+    cout << media;
+
+    return 0;
+}
