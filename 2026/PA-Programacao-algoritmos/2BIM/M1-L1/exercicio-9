@@ -1,0 +1,37 @@
+/*
+* Instituição: Syrran Tech Academy
+* Data: 05/06/2026
+* Autor: Kaio Ruan De Franca Barbosa
+* Descricao: O programa lê um número entre 50 e 100 e gera a sequência de Fibonacci. Cada número da sequência é a soma dos dois anteriores.
+             Os valores são exibidos até atingir o limite informado pelo usuário.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int limite;
+
+    cin >> limite;
+
+    if (limite < 50 || limite > 100) {
+        cout << "Numero invalido";
+        return 0;
+    }
+
+    int a = 0;
+    int b = 1;
+    int proximo = a + b;
+
+    cout << a << " " << b << " ";
+
+    while (proximo <= limite) {
+        cout << proximo << " ";
+
+        a = b;
+        b = proximo;
+        proximo = a + b;
+    }
+
+    return 0;
+}
