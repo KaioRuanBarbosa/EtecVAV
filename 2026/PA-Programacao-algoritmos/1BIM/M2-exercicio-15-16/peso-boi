@@ -1,0 +1,25 @@
+/*
+* Instituição: EtecVAV - Vasco Antonio Vechiarutti
+*
+* Arquivo: peso-boi.por
+* Data: 09/04/2026
+* Autor: Jorge Miguel e Kaio Ruan
+* Descrição: 
+* Ler o peso de um boi e o percentual de engorda. Calcular e exibir o novo peso do boi.
+*/
+programa {
+	funcao inicio() {
+		real pesoAtual, percentualEngorda, aumento, novoPeso
+
+		escreva("Peso atual do boi (kg): ") leia(pesoAtual)
+		escreva("Percentual de engorda (%): ") leia(percentualEngorda)
+
+		aumento = pesoAtual * (percentualEngorda / 100)
+		novoPeso = pesoAtual + aumento
+
+		escreva("\nRelatório de Engorda:")
+		escreva("\nPeso inicial: ", pesoAtual, " kg")
+		escreva("\nAumento: ", aumento, " kg")
+		escreva("\nNovo peso: ", novoPeso, " kg")
+	}
+}
