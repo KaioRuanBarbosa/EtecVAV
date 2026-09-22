@@ -1,5 +1,5 @@
 """
-    Autor:Erick Rodrigues Lins.
+    Autor:Kaio Ruan Barbosa
     Descrição: Calcula a média de notas válidas entre 0 e 10 usando while.
 """
 
